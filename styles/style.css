@@ -8,7 +8,7 @@
 }
 
 /* header styles */
-
+/* nav styles */
 .header {
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
@@ -149,6 +149,8 @@
 
 .we-are-gamer-img {
     flex-shrink: 0;
+    width: 55%;
+    height: 45%;
     padding-top: 55px;
     padding-bottom: 55px;
     padding-left: 20px;
@@ -187,6 +189,94 @@
     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
     border: 0px;
     margin-top: 30px;
+}
+
+/* online games style */
+
+.online-content {
+    text-align: center;
+    padding-top: 80px;
+}
+
+.online-title {
+    color: #0B0223;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.online-description {
+    color: #534C64;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 5px;
+}
+
+.online-games {
+    width: 55%;
+    /* height: auto; */
+    display: flex;
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+    gap: 15px;
+    padding-left: 300px;
+    padding-right: 20px;
+}
+
+.online-games .games3 img {
+    filter: blur(1.5px);
+    /* -webkit-filter: blur(8px) */
+}
+
+.games3 img:hover {
+    border: 2px solid #FF42A5;
+    border-radius: 15px;
+}
+
+.online-games p {
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    /* 150% */
+}
+
+/* install styles */
+
+.installs-section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.installs-content{
+    text-align: right;
+}
+
+.installs-title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    padding-top: 290px;
+    padding-bottom: 0px;
+
+}
+
+.installs-description {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.installs-img {
+    padding-top: 110px;
+}
+
+.installs-imgs{
+    position: relative;
+    bottom: 300px;
+    right: 145px;
 }
 
 /* responsive media */
