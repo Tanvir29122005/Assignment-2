@@ -490,10 +490,14 @@
 
  @media screen and (max-width: 576px) {
     .nav-content,
-    .header
+    .header,
+    .header-title
     {
         flex-direction: column;
+        align-items: center;
+        width: auto;
         text-align: center;
+
     }
     .play-content{
         flex-direction: column;
